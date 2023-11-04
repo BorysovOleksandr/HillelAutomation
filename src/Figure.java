@@ -26,7 +26,7 @@ public class Figure {
 
     }
 
-    public static void chooseFigure(int figureType){
+    static void chooseFigure(int figureType){
             switch (figureType) {
                 case 1:
                     System.out.println("Rectangle");
@@ -48,7 +48,7 @@ public class Figure {
 
 
     }
-    public static void createRectangle() {
+    static void createRectangle() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input width");
         int width = scanner.nextInt();
@@ -62,7 +62,7 @@ public class Figure {
         }
 
     }
-    public static void createRightTriangle() {
+    static void createRightTriangle() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input height");
         int height = scanner.nextInt();
@@ -73,7 +73,7 @@ public class Figure {
             System.out.println();
         }
     }
-    public static void createInvertedTriangle() {
+    static void createInvertedTriangle() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input height");
         int height = scanner.nextInt();
@@ -88,7 +88,7 @@ public class Figure {
         }
 
     }
-    public static void createNormalTriangle() {
+    static void createNormalTriangle() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input height");
         int height = scanner.nextInt();
