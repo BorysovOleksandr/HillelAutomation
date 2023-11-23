@@ -1,5 +1,3 @@
-package HillelAuto;
-
 public class HomeWork2 {
     public static void main(String args[]) {
         int hours = Integer.parseInt(args[0]);

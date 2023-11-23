@@ -1,14 +1,19 @@
-package Lesson8;
+package Lesson8.fishes;
 
-import java.awt.*;
-
-public abstract class Fishes {
+public abstract class Fish {
     protected String fishName;
     protected String color;
     protected int weight;
 
-    public abstract void swim();
+    public void swim() {
+        System.out.println("I can swim");
+    }
 
+    public void info(){
+        System.out.println("Name - " + fishName);
+        System.out.println("Color - " + color);
+        System.out.println("Weight - " + weight);
+    }
 
     public void setFishName(String fishName) {
         this.fishName = fishName;

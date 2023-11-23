@@ -1,5 +1,3 @@
-package HillelAuto;
-
 import java.util.Scanner;
 public class CheckNumber {
     public static void main(String[] args) {

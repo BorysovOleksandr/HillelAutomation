@@ -1,11 +1,9 @@
-package HillelAuto;
-
 import java.util.Scanner;
 
 public class HomeWork3 {
     public static void main(String args[]) {
    Scanner scanner = new Scanner(System.in);
-        System.out.println("Введіть кількість робочих годин на тиждень");
+        System.out.println("Введіть кількість годин на тиждень");
         float hours = scanner.nextFloat();
         //int hours = scanner.nextInt();
         System.out.println( "Введіть річну зарплатню з податками");
